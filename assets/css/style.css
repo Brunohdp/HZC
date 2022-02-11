@@ -11,69 +11,66 @@ body {
 
 
 
-/* MEU LATERAL */
-.menu-lateral {
+
+.notificacoes {
   background-color: #15191C;
+  border-radius: 0 0 1rem 1rem;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  left: -100vw;
+  height: auto;
   position: absolute;
+  right: 0;
+  top: -100vh;
   transition: all, 0.4s;
-  width: 75vw;
+  width: 65vw;
+  z-index: -1;
 }
 
-.menu-lateral--ativo{
-  left: 0;
+.notificacoes--ativo {
+  top: 7.5vh;
   transition: all, 0.4s;
 }
 
-.menu-lateral__logo {
-  align-self: center;
+.notificacoes__lista {
+  border-bottom: 0.1px solid #95999c6e;
+  display: grid;
   padding: 1rem;
-  width: 7.4rem;
+  row-gap: 1rem;
 }
 
-.menu-lateral__link {
+.notificacoes__item {
   align-items: center;
-  color: #95999C;
-  display: flex;
-  height: 4rem;
-  padding-left: 4rem;
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 
+      "notificacoes__item--miniatura notificacoes__item--titulo"
+      "notificacoes__item--hora notificacoes__item--descricao"
+  ;
 }
 
-.menu-lateral__link--ativo {
+.notificacoes__item--miniatura {
+  grid-area: notificacoes__item--miniatura;
+  grid-row: span 2;
+  width: 2rem;
+}
+
+.notificacoes__item--titulo {
   color: #FFFFFF;
-  border-left: 0.5rem solid #FFFFFF;
+  grid-area: notificacoes__item--titulo;
 }
 
-.menu-lateral__link::before {
-  content: "\e90e";
-  font-size: 1.5rem;
-  left: 1.5rem;
-  position: absolute;
+.notificacoes__item--descricao {
+  color: #95999C;
+  font-size: 0.7rem;
+  grid-area: notificacoes__item--descricao;
 }
 
-.menu-lateral__link--inicio::before {
-  content: "\e902";
-}
-
-.menu-lateral__link--videos::before {
-  content: "\e90e";
-}
-
-.menu-lateral__link--picos::before {
-  content: "\e909";
-}
-
-.menu-lateral__link--integrantes::before {
-  content: "\e903";
-}
-
-.menu-lateral__link--camisas::before {
-  content: "\e900";
-}
-
-.menu-lateral__link--pinturas::before {
-  content: "\e90a";
+.notificacoes__botao {
+  color: #95999c9d;
+  font-size: 0.8rem;
+  justify-self: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  text-decoration: underline;
 }

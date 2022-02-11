@@ -1,0 +1,66 @@
+/* MEU LATERAL */
+.menu-lateral {
+  background-color: #15191C;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  left: -100vw;
+  position: absolute;
+  transition: all, 0.4s;
+  width: 75vw;
+}
+
+.menu-lateral--ativo{
+  left: 0;
+  transition: all, 0.4s;
+}
+
+.menu-lateral__logo {
+  align-self: center;
+  padding: 1rem;
+  width: 7.4rem;
+}
+
+.menu-lateral__link {
+  align-items: center;
+  color: #95999C;
+  display: flex;
+  height: 4rem;
+  padding-left: 4rem;
+}
+
+.menu-lateral__link--ativo {
+  color: #FFFFFF;
+  border-left: 0.5rem solid #FFFFFF;
+}
+
+.menu-lateral__link::before {
+  content: "\e90e";
+  font-size: 1.5rem;
+  left: 1.5rem;
+  position: absolute;
+}
+
+.menu-lateral__link--inicio::before {
+  content: "\e902";
+}
+
+.menu-lateral__link--videos::before {
+  content: "\e90e";
+}
+
+.menu-lateral__link--picos::before {
+  content: "\e909";
+}
+
+.menu-lateral__link--integrantes::before {
+  content: "\e903";
+}
+
+.menu-lateral__link--camisas::before {
+  content: "\e900";
+}
+
+.menu-lateral__link--pinturas::before {
+  content: "\e90a";
+}
