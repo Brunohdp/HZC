@@ -1,0 +1,23 @@
+/* CABEÇALHO */
+.cabecalho {
+  align-items: center;
+  background-color: #15191C;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.cabecalho__menu i::before {
+  content: "\e904";
+  font-size: 1.5rem;
+}
+
+.cabecalho__logo {
+  padding: 0.5rem 0;
+  width: 2.5rem;
+}
+
+.cabecalho__notificacao i::before {
+  content: "\e906";
+  font-size: 1.5rem;
+}
