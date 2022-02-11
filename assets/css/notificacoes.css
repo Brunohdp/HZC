@@ -10,11 +10,10 @@
   top: -100vh;
   transition: all, 0.4s;
   width: 65vw;
-  z-index: -1;
 }
 
 .notificacoes--ativo {
-  top: unset;
+  top: inherit;
   transition: all, 0.4s;
 }
 
