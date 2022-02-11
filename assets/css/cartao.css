@@ -11,6 +11,9 @@
   width: inherit;
 }
 
+
+
+/* CONTEÚDO */
 .cartao__titulo {
   font-size: 1.2rem;
   font-weight: 700;
@@ -35,16 +38,6 @@
   align-self: center;
 }
 
-.cartao__info--tempo::before {
-  content: "\e90c";
-  margin-right: 0.5rem;
-}
-
-.cartao__info--views::before {
-  content: "\e90f";
-  margin-right: 0.5rem;
-}
-
 .cartao__botao {
   align-items: center;
   background-color: #0480DC;
@@ -57,7 +50,31 @@
   width: 2.5rem;
 }
 
+
+/* VÍDEOS */
+.cartao__info--tempo::before {
+  content: "\e90c";
+  margin-right: 0.5rem;
+}
+
+.cartao__info--views::before {
+  content: "\e90f";
+  margin-right: 0.5rem;
+}
+
 .cartao__botao--play::before {
   content: "\e90b";
+  font-size: 1.5rem;
+}
+
+
+/* PRODUTOS */
+.cartao__info--preco::before {
+  content: "\e905";
+  margin-right: 0.5rem;
+}
+
+.cartao__botao--comprar::before {
+  content: "\e901";
   font-size: 1.5rem;
 }
