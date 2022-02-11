@@ -1,0 +1,63 @@
+/* NOTIFICAÇÕES */
+.notificacoes {
+  background-color: #15191C;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: -100vh;
+  transition: all, 0.4s;
+  width: 65vw;
+  z-index: -1;
+}
+
+.notificacoes--ativo {
+  top: unset;
+  transition: all, 0.4s;
+}
+
+.notificacoes__lista {
+  border-bottom: 0.1px solid #95999c6e;
+  display: grid;
+  padding: 1rem;
+  row-gap: 1rem;
+}
+
+.notificacoes__item {
+  align-items: center;
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 
+      "notificacoes__item--miniatura notificacoes__item--titulo"
+      "notificacoes__item--hora notificacoes__item--descricao"
+  ;
+}
+
+.notificacoes__item--miniatura {
+  grid-area: notificacoes__item--miniatura;
+  grid-row: span 2;
+  width: 2rem;
+}
+
+.notificacoes__item--titulo {
+  color: #FFFFFF;
+  grid-area: notificacoes__item--titulo;
+}
+
+.notificacoes__item--descricao {
+  color: #95999C;
+  font-size: 0.7rem;
+  grid-area: notificacoes__item--descricao;
+}
+
+.notificacoes__botao {
+  color: #95999c9d;
+  font-size: 0.8rem;
+  justify-self: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+}
