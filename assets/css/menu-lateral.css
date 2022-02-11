@@ -8,6 +8,7 @@
   position: absolute;
   transition: all, 0.4s;
   width: 75vw;
+  z-index: 1;
 }
 
 .menu-lateral--ativo{
@@ -63,4 +64,13 @@
 
 .menu-lateral__link--pinturas::before {
   content: "\e90a";
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-lateral {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    position: static;
+    width: 200px;
+  }
 }
