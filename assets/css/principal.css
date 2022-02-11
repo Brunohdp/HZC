@@ -1,0 +1,11 @@
+/* PRINCIPAL */
+.principal {
+  display: grid;
+  padding: 1.5rem 1rem;
+  row-gap: 1rem;
+}
+
+.principal__titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

@@ -11,80 +11,20 @@ body {
 
 
 
-/* PRINCIPAL */
-.principal {
-  display: grid;
-  padding: 1.5rem 1rem;
-  row-gap: 1rem;
-}
 
-.principal__titulo {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
 
-.cartao {
-  background-color: #2C343A;
-  border-radius: 1rem;
-  box-sizing: border-box;
-  overflow: hidden;
-  width: 100%;
-}
 
-.cartao--destaque {
-  margin-bottom: 1rem;
-}
 
-.cartao__imagem {
-  width: inherit;
-}
 
-.cartao__conteudo {
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: auto 1fr;
-  padding: 1rem;
-}
 
-.cartao__destaque {
-  grid-column: span 2;
-}
 
-.cartao__titulo {
-  font-size: 1.2rem;
-  font-weight: 700;
-  grid-column: span 2;
-}
 
-.cartao__criador {
-  color: #95999C;
-  grid-column: span 2;
-}
 
-.cartao__info {
-  color: #95999C;
-}
 
-.cartao__botao {
-  align-items: center;
-  background-color: #0480DC;
-  border-radius: 10px;
-  display: flex;
-  font-size: 0.9rem;
-  height: 2.5rem;
-  justify-content: center;
-}
 
-.cartao__botao--play::before {
-  content: "\e90b";
-  font-size: 1.5rem;
-}
 
-.cartao__botao--destaque {
-  grid-column: span 2;
-  width: 100%;
-}
 
-.cartao__botao--destaque::before {
-  margin-right: 0.5rem;
-}
+
+
+
+
