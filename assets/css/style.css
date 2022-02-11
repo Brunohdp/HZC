@@ -27,7 +27,7 @@ body {
 }
 
 .notificacoes--ativo {
-  top: 7.5vh;
+  top: unset;
   transition: all, 0.4s;
 }
 
