@@ -34,9 +34,9 @@
     column-gap: 2rem;
     grid-column: 2;
     grid-template-columns: 1fr auto;
-    height: 5rem;
+    height: 4rem;
     justify-content: flex-end;
-    padding: 1rem 3.75rem;
+    padding: 1rem 2rem;
   }
 
   .cabecalho__menu {
@@ -50,6 +50,7 @@
   .cabecalho__perfil {
     align-items: center;
     border-right: 1px solid #98999C;
+    color: #95999C;
     gap: 1rem;
     display: grid;
     grid-template-columns: auto 1fr auto;

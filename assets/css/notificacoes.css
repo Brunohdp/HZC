@@ -62,37 +62,21 @@
   text-decoration: underline;
 }
 
-@media screen and (min-width: 1024px) {
-  .notificacoes {
-    width: auto;
-  }
-  
+@media screen and (min-width: 1024px) {  
   .notificacoes--ativo {
-    top: 5rem;
+    top: 4rem;
   }
 
   .notificacoes__lista {
-    padding: 1.5rem;
-    row-gap: 1.5rem;
+    padding: 1.3rem 2rem 1.3rem 1.3rem;
+    row-gap: 1.2rem;
   }
 
   .notificacoes__item {
-    column-gap: 1rem;
+    column-gap: 0.7rem;
   }
 
   .notificacoes__item--miniatura {
-    width: 3rem;
-  }
-
-  .notificacoes__item--titulo {
-    font-size: 1.2rem;
-  }
-
-  .notificacoes__item--descricao {
-    font-size: 1rem;
-  }
-
-  .notificacoes__botao {
-    font-size: 1rem;
+    width: 2.7rem;
   }
 }
