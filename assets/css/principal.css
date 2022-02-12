@@ -22,12 +22,12 @@
     grid-template-areas: 
         "titulo-principal titulo-principal titulo-principal"
         "video-destaque video-destaque videos-recentes"
-        "titulo-secao-videos titulo-secao-videos titulo-secao-videos"
         "secao-videos secao-videos secao-videos"
         "titulo-produtos titulo-produtos titulo-produtos"
-        "produtos-recentes produto-destaque produto-destaque"
+        "novas-artes produto-destaque produto-destaque"
         "secao-produtos secao-produtos secao-produtos"
     ;
+    padding: 1rem 3.75rem;
   }
 
   .titulo-principal {
@@ -42,15 +42,31 @@
     grid-area: secao-videos;
   }
 
-  .titulo-secao-videos {
-    grid-area: titulo-secao-videos;
+  .titulo-videos-mais-vistos {
+    grid-column: span 4;
+  }
+
+  .principal__titulo--produtos {
+    margin-top: 1rem;
   }
 
   .titulo-produtos {
     grid-area: titulo-produtos;
   }
 
+  .produto-destaque {
+    grid-area: produto-destaque;
+  }
+
+  .novas-artes {
+    grid-area: novas-artes;
+  }
+
   .secao-produtos {
     grid-area: secao-produtos;
+  }
+
+  .titulo-camisas-mais-recentes {
+    grid-column: span 4;
   }
 }

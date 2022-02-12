@@ -9,3 +9,9 @@
   font-size: 1.2rem;
   font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+  .secao {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
