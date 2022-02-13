@@ -14,5 +14,5 @@ botaoNotificacao.addEventListener("click", () => {
 })
 
 botaoVideoDestaque.addEventListener("click", () => {
-  window.location.href="https://www.google.com"
+  window.location.href="pagina-modelo-dos-videos.html"
 })

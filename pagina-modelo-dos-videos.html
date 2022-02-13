@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ept-br">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HZC - HOME</title>
+  <title>HZC - Página modelo dos vídeos</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="assets/css/cartao--destaque.css">
   <link rel="stylesheet" href="assets/css/secao.css">
 </head>
-
 <body>
   <header class="cabecalho">
     <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
@@ -31,8 +30,8 @@
   
   <nav class="menu-lateral">
     <img src="assets/img/logo.svg" alt="Logo HZC" class="menu-lateral__logo">
-    <a href="#" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
-    <a href="videos__index.html" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+    <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
+    <a href="videos__index.html" class="menu-lateral__link menu-lateral__link--videos menu-lateral__link--ativo">Vídeos</a>
     <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
     <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
     <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
@@ -70,9 +69,7 @@
     <button class="notificacoes__botao">Ver todas as notificações</button>
   </article>
 
-  <main class="principal">
-    <h2 class="principal__titulo titulo-principal">Início</h2>
-
+  <main class="principal principal-video">
     <article class="cartao cartao--destaque video-destaque">
       <img src="assets/img/banner-mobile_1.png" alt="Banner Cartão" class="cartao__imagem cartao__imagem--mobile">
       <img src="assets/img/banner_1.png" alt="Banner Cartão" class="cartao__imagem cartao__imagem--desktop">
@@ -162,108 +159,6 @@
         </div>
       </article>
     </section>
-
-    <h2 class="principal__titulo principal__titulo--produtos titulo-produtos">Produtos</h2>
-
-    <article class="cartao cartao--destaque produto-destaque">
-      <img src="assets/img/banner-mobile_2.png" alt="Banner Cartão" class="cartao__imagem cartao__imagem--mobile">
-      <img src="assets/img/banner_2.png" alt="Banner Cartão" class="cartao__imagem cartao__imagem--desktop">
-      <div class="cartao__conteudo">
-        <p class="cartao__destaque">Nova arte</p>
-        <h3 class="cartao__titulo">Only Zikas - Lagoa Dompa Club</h3>
-        <p class="cartao__criador">Bruno Henrique de Paula</p>
-        <p class="cartao__info cartao__info--preco">33,33</p>
-        <p class="cartao__info cartao__info--views">1.3K views</p>
-        <button class="cartao__botao cartao__botao--comprar cartao__botao--destaque">Comprar agora</button>
-      </div>
-    </article>
-
-    <article class="cartao cartao--recentes novas-artes">
-      <h3 class="cartao__titulo">Novas artes</h3>
-      <a href="#" class="cartao__link">Ver todos</a>
-
-      <ul class="cartao__lista">
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_1.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Sem título 01</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_2.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Sem título 02</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_3.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Segurança</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_4.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Malunguisse</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_5.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Coroa da converse</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_1.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Segurança</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_2.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Sem título 03</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-      </ul>
-    </article>
-
-    <section class="secao secao-produtos">
-      <h3 class="secao__titulo titulo-camisas-mais-recentes">Camisas mais recentes</h3>
-      
-      <article class="cartao">
-        <img src="assets/img/produto_1.png" alt="Banner Cartão" class="cartao__imagem">
-        <div class="cartao__conteudo">
-          <p class="cartao__criador">Bruno Henrique de Paula</p>
-          <h3 class="cartao__titulo">IBM</h3>
-          <p class="cartao__info cartao__info--preco">27,50</p>
-          <button class="cartao__botao cartao__botao--comprar"></button>
-        </div>
-      </article>
-
-      <article class="cartao">
-        <img src="assets/img/produto_2.png" alt="Banner Cartão" class="cartao__imagem">
-        <div class="cartao__conteudo">
-          <p class="cartao__criador">Bruno Henrique de Paula</p>
-          <h3 class="cartao__titulo">Huflez Crew Philosophy Club</h3>
-          <p class="cartao__info cartao__info--preco">42,90</p>
-          <button class="cartao__botao cartao__botao--comprar"></button>
-        </div>
-      </article>
-
-      <article class="cartao">
-        <img src="assets/img/produto_3.png" alt="Banner Cartão" class="cartao__imagem">
-        <div class="cartao__conteudo">
-          <p class="cartao__criador">Bruno Henrique de Paula</p>
-          <h3 class="cartao__titulo">Corujita Noturna</h3>
-          <p class="cartao__info cartao__info--preco">77,80</p>
-          <button class="cartao__botao cartao__botao--comprar"></button>
-        </div>
-      </article>
-
-      <article class="cartao">
-        <img src="assets/img/produto_4.png" alt="Banner Cartão" class="cartao__imagem">
-        <div class="cartao__conteudo">
-          <p class="cartao__criador">Bruno Henrique de Paula</p>
-          <h3 class="cartao__titulo">GGG - Gtain G Gorro</h3>
-          <p class="cartao__info cartao__info--preco">25,50</p>
-          <button class="cartao__botao cartao__botao--comprar"></button>
-        </div>
-      </article>
-    </section>  
   </main>
 
   <script src="main.js"></script>
