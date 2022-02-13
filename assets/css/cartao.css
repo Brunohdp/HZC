@@ -88,6 +88,7 @@
 }
 
 .cartao__info--views::before {
+  color: rgba(23, 204, 23, 0.575);
   content: "\e90f";
   margin-right: 0.5rem;
 }
@@ -128,6 +129,10 @@
 
   .cartao__imagem--desktop {
     display: block;
+  }
+
+  .cartao__conteudo--destaque {
+    
   }
 
   /* RECENTES */
