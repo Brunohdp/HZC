@@ -53,6 +53,7 @@
   align-items: center;
   background-color: #0480DC;
   border-radius: 10px;
+  cursor: pointer;
   display: flex;
   font-size: 0.9rem;
   height: 2.5rem;

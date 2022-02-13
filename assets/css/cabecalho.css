@@ -24,6 +24,7 @@
 
 .cabecalho__notificacao i::before {
   content: "\e906";
+  cursor: pointer;
   font-size: 1.5rem;
 }
 
