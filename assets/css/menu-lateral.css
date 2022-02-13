@@ -73,4 +73,8 @@
     position: static;
     width: 200px;
   }
+
+  .menu-lateral--videos {
+    height: 100%;
+  }
 }
