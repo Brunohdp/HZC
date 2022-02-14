@@ -4,6 +4,8 @@ const areaNoticacao = document.querySelector(".notificacoes");
 const botaoNotificacao = document.querySelector(".cabecalho__notificacao");
 const botaoParaPaginaDoVideo = document.querySelectorAll(".cartao__botao--play")
 const botaoParaPaginaDoPico = document.querySelectorAll(".cartao__botao--pico")
+const botaoTodasAsNotificacoes = document.querySelector(".notificacoes__botao")
+const botaoComprar = document.querySelectorAll(".cartao__botao--comprar")
 
 
 botaoMenu.addEventListener("click", () => {
@@ -23,3 +25,10 @@ botaoParaPaginaDoPico.forEach((botao) =>
   botao.addEventListener('click', (event) => {
     window.location.href="pagina-modelo-dos-picos.html"})
 );
+
+botaoComprar.forEach((botao) =>
+  botao.addEventListener('click', (event) => {
+    window.location.href="erro.html"})
+);
+
+botaoTodasAsNotificacoes.addEventListener("click", () => {window.location.href="erro.html"})
