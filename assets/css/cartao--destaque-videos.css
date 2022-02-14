@@ -17,14 +17,14 @@
   margin-right: 0.5rem;
 }
 
-.cartao__criador {
+.cartao--destaque .cartao__criador {
   align-items: center;
   display: grid;
   gap: 0.5rem;
   grid-template-columns: auto 1fr;
 }
 
-.cartao__criador::before {
+.cartao--destaque .cartao__criador::before {
   background-image: url(../img/profile_2.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -35,11 +35,11 @@
 }
 
 @media screen and (min-width:1024px) {
-  .cartao__criador {
+  .cartao--destaque .cartao__criador {
     grid-column: 1;
   }
 
-  .cartao__titulo {
+  .cartao--destaque .cartao__titulo {
     grid-column: 1;
   }
 
