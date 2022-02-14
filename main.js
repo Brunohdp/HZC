@@ -2,7 +2,7 @@ const menuLateral = document.querySelector(".menu-lateral");
 const botaoMenu = document.querySelector(".cabecalho__menu");
 const areaNoticacao = document.querySelector(".notificacoes");
 const botaoNotificacao = document.querySelector(".cabecalho__notificacao");
-const botaoVideoDestaque = document.querySelector(".cartao__botao--destaque")
+const botaoParaPaginaDoVideo = document.querySelectorAll(".cartao__botao--play")
 
 
 botaoMenu.addEventListener("click", () => {
@@ -13,6 +13,7 @@ botaoNotificacao.addEventListener("click", () => {
   areaNoticacao.classList.toggle('notificacoes--ativo');
 })
 
-botaoVideoDestaque.addEventListener("click", () => {
-  window.location.href="pagina-modelo-dos-videos.html"
-})
+botaoParaPaginaDoVideo.forEach((botao) =>
+  botao.addEventListener('click', (event) => {
+    window.location.href="pagina-modelo-dos-videos.html"})
+);
