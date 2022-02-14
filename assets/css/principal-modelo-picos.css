@@ -5,7 +5,7 @@
   row-gap: 1rem;
 }
 
-.principal__video {
+.principal__pico {
   border-radius: 1rem;
   height: 40vh;
   width: 100%;
@@ -33,13 +33,13 @@
   width: 2rem;
 }
 
-.info-video--tempo {
+.info-pico--views {
   align-items: center;
   display: flex;
 }
 
-.info-video--tempo::before {
-  content: "\e90c";
+.info-pico--views::before {
+  content: "\e90f";
   margin-right: 0.5rem;
 }
 
@@ -51,13 +51,17 @@
   line-height: 2rem;
 }
 
+.principal__conteudo--foto-artigo {
+  grid-column: span 2;
+}
+
 .principal__conteudo--foto {
   border-radius: 1rem;
   margin-bottom: 1rem;
   width: 100%;
 }
 
-.info-video {
+.info-pico {
   align-items: center;
   color: #95999C;
   display: flex;
@@ -72,7 +76,7 @@
     margin: 1rem;
   }
 
-  .principal__video {
+  .principal__pico {
     height: 50vh;
   }
 }
@@ -82,22 +86,22 @@
   .principal {
     column-gap: 2rem;
     grid-column: 2;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr 1fr;
     grid-template-areas:
-        "principal__video principal__video secao-videos-similares"
-        "titulo-principal titulo-principal secao-videos-similares"
-        "perfil-criador info-video secao-videos-similares"
-        "conteudo-principal conteudo-principal secao-videos-similares"
+        "principal__pico principal__pico secao-picos-similares"
+        "titulo-principal titulo-principal secao-picos-similares"
+        "perfil-criador info-pico secao-picos-similares"
+        "conteudo-principal conteudo-principal secao-picos-similares"
     ;
     padding: 1rem 3.75rem;
   }
 
-  .principal__video {
-    grid-area: principal__video;
+  .principal__pico {
+    grid-area: principal__pico;
   }
 
-  .secao-videos-similares {
-    grid-area: secao-videos-similares;
+  .secao-picos-similares {
+    grid-area: secao-picos-similares;
   }
 
   .titulo-principal {
@@ -108,8 +112,8 @@
     grid-area: perfil-criador;
   }
 
-  .info-video {
-    grid-area: info-video;
+  .info-pico {
+    grid-area: info-pico;
     justify-self: flex-end;
   }
 

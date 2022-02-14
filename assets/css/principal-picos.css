@@ -1,0 +1,45 @@
+/* PRINCIPAL */
+.principal {
+  display: grid;
+  padding: 1.5rem 1rem;
+  row-gap: 1rem;
+}
+
+.principal__titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .principal {
+    column-gap: 2rem;
+    grid-column: 2;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 
+        "titulo-principal titulo-principal titulo-principal"
+        "mapa-destaque mapa-destaque picos-favoritos"
+        "secao-picos secao-picos secao-picos"
+    ;
+    padding: 1rem 3.75rem;
+  }
+
+  .titulo-principal {
+    grid-area: titulo-principal;
+  }
+
+  .mapa-destaque {
+    grid-area: mapa-destaque;
+  }
+
+  .picos-favoritos {
+    grid-area: picos-favoritos;
+  }
+
+  .secao-picos {
+    grid-area: secao-picos;
+  }
+
+  .titulo-picos-mais-visitados {
+    grid-column: span 4;
+  }
+}

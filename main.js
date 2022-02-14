@@ -3,6 +3,7 @@ const botaoMenu = document.querySelector(".cabecalho__menu");
 const areaNoticacao = document.querySelector(".notificacoes");
 const botaoNotificacao = document.querySelector(".cabecalho__notificacao");
 const botaoParaPaginaDoVideo = document.querySelectorAll(".cartao__botao--play")
+const botaoParaPaginaDoPico = document.querySelectorAll(".cartao__botao--pico")
 
 
 botaoMenu.addEventListener("click", () => {
@@ -16,4 +17,9 @@ botaoNotificacao.addEventListener("click", () => {
 botaoParaPaginaDoVideo.forEach((botao) =>
   botao.addEventListener('click', (event) => {
     window.location.href="pagina-modelo-dos-videos.html"})
+);
+
+botaoParaPaginaDoPico.forEach((botao) =>
+  botao.addEventListener('click', (event) => {
+    window.location.href="pagina-modelo-dos-picos.html"})
 );

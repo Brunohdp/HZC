@@ -1,11 +1,17 @@
 /* CARTÃO */
 .cartao {
   background-color: #2C343A;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   overflow: hidden;
   width: 100%;
 }
 
+.mapa {
+  background-color: #2C343A;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 100%;
+}
 
 
 /* IMAGENS */
@@ -19,6 +25,11 @@
 
 .cartao__imagem--desktop {
   display: none;
+}
+
+.mapa__imagem {
+  height: 50vh;
+  width: fit-content;
 }
 
 
@@ -90,7 +101,6 @@
 }
 
 .cartao__info--views::before {
-  color: rgba(23, 204, 23, 0.575);
   content: "\e90f";
   margin-right: 0.5rem;
 }
@@ -124,6 +134,19 @@
 }
 
 
+
+/* PICOS */
+.cartao__botao--pico {
+  align-items: center;
+  display: flex;
+}
+
+.cartao__botao--pico::before {
+  content: "\e908";
+  font-size: 1.5rem;
+}
+
+
 @media screen and (min-width:1024px) {
   .cartao__imagem--mobile {
     display: none;
@@ -131,6 +154,11 @@
 
   .cartao__imagem--desktop {
     display: block;
+  }
+
+  .mapa__imagem {
+    height: 100%;
+    width: 100%;
   }
 
   /* RECENTES E FAVORITOS */
