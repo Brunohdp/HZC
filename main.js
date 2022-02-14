@@ -6,6 +6,7 @@ const botaoParaPaginaDoVideo = document.querySelectorAll(".cartao__botao--play")
 const botaoParaPaginaDoPico = document.querySelectorAll(".cartao__botao--pico")
 const botaoTodasAsNotificacoes = document.querySelector(".notificacoes__botao")
 const botaoComprar = document.querySelectorAll(".cartao__botao--comprar")
+const linkVerTodos = document.querySelectorAll(".cartao__link")
 
 
 botaoMenu.addEventListener("click", () => {
@@ -27,6 +28,11 @@ botaoParaPaginaDoPico.forEach((botao) =>
 );
 
 botaoComprar.forEach((botao) =>
+  botao.addEventListener('click', (event) => {
+    window.location.href="erro.html"})
+);
+
+linkVerTodos.forEach((botao) =>
   botao.addEventListener('click', (event) => {
     window.location.href="erro.html"})
 );
