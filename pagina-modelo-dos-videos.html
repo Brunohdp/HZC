@@ -14,11 +14,10 @@
   <link rel="stylesheet" href="assets/css/cabecalho.css">
   <link rel="stylesheet" href="assets/css/menu-lateral.css">
   <link rel="stylesheet" href="assets/css/notificacoes.css">
-  <link rel="stylesheet" href="assets/css/principal.css">
-  <link rel="stylesheet" href="assets/css/cartao--destaque.css">
+  <link rel="stylesheet" href="assets/css/principal-modelo-videos.css">
   <link rel="stylesheet" href="assets/css/cartao.css">
   <link rel="stylesheet" href="assets/css/cartao--destaque.css">
-  <link rel="stylesheet" href="assets/css/secao.css">
+  <link rel="stylesheet" href="assets/css/secao-modelo-videos.css">
 </head>
 <body>
   <header class="cabecalho">
@@ -69,55 +68,30 @@
     <button class="notificacoes__botao">Ver todas as notificações</button>
   </article>
 
-  <main class="principal principal-video">
-    <article class="cartao cartao--destaque video-destaque">
-      <img src="assets/img/banner-mobile_1.png" alt="Banner Cartão" class="cartao__imagem cartao__imagem--mobile">
-      <img src="assets/img/banner_1.png" alt="Banner Cartão" class="cartao__imagem cartao__imagem--desktop">
-      <div class="cartao__conteudo">
-        <p class="cartao__destaque">Vídeo destaque</p>
-        <h3 class="cartao__titulo">HZC - Life is... / 2021</h3>
-        <p class="cartao__criador">Bruno Henrique de Paula</p>
-        <p class="cartao__info cartao__info--tempo">22 minutos</p>
-        <p class="cartao__info cartao__info--views">3K views</p>
-        <button class="cartao__botao cartao__botao--play cartao__botao--destaque">Assistir agora</button>
-      </div>
-    </article>
+  <main class="principal">
+    <iframe class="principal__video" src="https://www.youtube.com/embed/wIwKC0slBWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <article class="cartao cartao--recentes videos-recentes">
-      <h3 class="cartao__titulo">Vídeos recentes</h3>
-      <a href="#" class="cartao__link">Ver todos</a>
+    <h2 class="principal__titulo titulo-principal">HZC - Life is... / 2021</h2>
+    <p class="perfil-criador">Bruno Henrique de Paula</p>
+    <p class="info-video info-video--tempo">47 minutos</p>
 
-      <ul class="cartao__lista">
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_1.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">HCZ - Love Machine</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_2.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">HZC - Vol. 3</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_3.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">HZC - Pescaria na Urca</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_4.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Vidalocagi - Guerreiros do Asfalto</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-        <li class="cartao__item">
-          <img src="assets/img/miniatura_5.png" alt="thumbnail" class="cartao__item--thumbnail">
-          <h4 class="cartao__item--titulo">Vidalocagi - Não importa o nível</h4>
-          <p class="cartao__item--perfil">Bruno Henrique de Paula</p>
-        </li>
-      </ul>
-    </article>
+    <section class="principal__conteudo conteudo-principal">
+      <p class="principal__conteudo--paragrafo">
+        Venenatis maecenas animi eiusmod nostrum, mauris alias quas. Recusandae, ridiculus porta nec eaque? Excepteur aut do quisquam ultricies, quos! Morbi ad magna sunt anim imperdiet iusto hymenaeos voluptate? Nostrum sapien hic non occaecat! Facilis interdum debitis, deserunt fermentum quas mattis interdum penatibus. Dictum laboris diamlorem, repellat, aut ligula. Quam tellus, facilisis possimus? Quidem nunc! Aenean sem! Curabitur eos felis porro integer consectetuer consectetur. Porttitor, convallis, sapien earum inventore dapibus facilis, facilis semper. Tempora senectus dictumst odio vivamus pariatur, praesentium laoreet, hendrerit duis proin excepturi, torquent et, sem, eu temporibus aut placerat nostrum. Parturient perspiciatis nesciunt. Earum ligula habitasse quo laoreet.
+      </p>
+      <p class="principal__conteudo--paragrafo">
+        Venenatis maecenas animi eiusmod nostrum, mauris alias quas. Recusandae, ridiculus porta nec eaque? Excepteur aut do quisquam ultricies, quos! Morbi ad magna sunt anim imperdiet iusto hymenaeos voluptate? Nostrum sapien hic non occaecat! Facilis interdum debitis, deserunt fermentum quas mattis interdum penatibus. Dictum laboris diamlorem, repellat, aut ligula. Quam tellus, facilisis possimus? Quidem nunc! Aenean sem! Curabitur eos felis porro integer consectetuer consectetur. Porttitor, convallis, sapien earum inventore dapibus facilis, facilis semper. Tempora senectus dictumst odio vivamus pariatur, praesentium laoreet, hendrerit duis proin excepturi, torquent et, sem, eu temporibus aut placerat nostrum. Parturient perspiciatis nesciunt. Earum ligula habitasse quo laoreet.
+      </p>
+      <img src="assets/img/artigo_video_1.png" alt="skatista" class="principal__conteudo--foto principal__conteudo--foto-1">
+      <img src="assets/img/artigo_video_2.png" alt="skatista" class="principal__conteudo--foto principal__conteudo--foto-2">
+      <p class="principal__conteudo--paragrafo">
+        Venenatis maecenas animi eiusmod nostrum, mauris alias quas. Recusandae, ridiculus porta nec eaque? Excepteur aut do quisquam ultricies, quos! Morbi ad magna sunt anim imperdiet iusto hymenaeos voluptate? Nostrum sapien hic non occaecat! Facilis interdum debitis, deserunt fermentum quas mattis interdum penatibus. Dictum laboris diamlorem, repellat, aut ligula. Quam tellus, facilisis possimus? Quidem nunc! Aenean sem! Curabitur eos felis porro integer consectetuer consectetur. Porttitor, convallis, sapien earum inventore dapibus facilis, facilis semper. Tempora senectus dictumst odio vivamus pariatur, praesentium laoreet, hendrerit duis proin excepturi, torquent et, sem, eu temporibus aut placerat nostrum. Parturient perspiciatis nesciunt. Earum ligula habitasse quo laoreet.
+      </p>
+    </section>
 
-    <section class="secao secao-videos">
-      <h3 class="secao__titulo titulo-videos-mais-vistos">Vídeos mais vistos</h3>
+
+    <section class="secao secao-videos-similares">
+      <h3 class="secao__titulo secao__titulo--outros-videos-similares">Outros vídeos similares</h3>
       
       <article class="cartao">
         <img src="assets/img/video_1.png" alt="Banner Cartão" class="cartao__imagem">

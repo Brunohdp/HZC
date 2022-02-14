@@ -1,0 +1,131 @@
+/* PRINCIPAL */
+.principal {
+  display: grid;
+  padding: 1.5rem 1rem;
+  row-gap: 1rem;
+}
+
+.principal__video {
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.principal__titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.perfil-criador {
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: auto 1fr;
+}
+
+.perfil-criador::before {
+  background-image: url(../img/profile_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 2rem;
+  width: 2rem;
+}
+
+.info-video--tempo {
+  align-items: center;
+  display: flex;
+}
+
+.info-video--tempo::before {
+  content: "\e90c";
+  margin-right: 0.5rem;
+}
+
+.principal__conteudo--paragrafo {
+  color: #FFFFFF;
+  grid-column: span 2;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.principal__conteudo--foto {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.info-video {
+  align-items: center;
+  color: #95999C;
+  display: flex;
+}
+
+
+@media screen and (min-width: 768px) {
+  .principal__conteudo {
+    display: grid;
+    grid-template-columns: 1.27fr 1fr;
+    gap: 1rem;
+    margin: 1rem;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .principal {
+    column-gap: 2rem;
+    grid-column: 2;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 
+        "principal__video principal__video secao-videos-similares"
+        "titulo-principal titulo-principal secao-videos-similares"
+        "perfil-criador info-video secao-videos-similares"
+        "conteudo-principal conteudo-principal secao-videos-similares"
+    ;
+    padding: 1rem 3.75rem;
+  }
+
+  .principal__video {
+    grid-area: principal__video;
+  }
+
+  .secao-videos-similares {
+    grid-area: secao-videos-similares;
+  }
+
+  .titulo-principal {
+    grid-area: titulo-principal;
+  }
+
+  .perfil-criador {
+    grid-area: perfil-criador;
+  }
+
+  .info-video {
+    grid-area: info-video;
+    justify-self: flex-end;
+  }
+
+  .conteudo-principal {
+    grid-area: conteudo-principal;
+  }
+
+  .video-destaque {
+    grid-area: video-destaque;
+  }
+
+  .videos-recentes {
+    grid-area: videos-recentes;
+  }
+
+  .secao__titulo--outros-videos-similares {
+    grid-area: secao__titulo--outros-videos-similares;
+  }
+
+  .titulo-videos-mais-vistos {
+    grid-column: span 4;
+  }
+}
