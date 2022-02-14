@@ -28,5 +28,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  
+  .secao {
+    height: 100%;
+  }
 }
