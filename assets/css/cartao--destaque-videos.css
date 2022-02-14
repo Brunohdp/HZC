@@ -1,0 +1,52 @@
+/* CARTÃO DESTAQUE */
+.cartao--destaque {
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+
+.cartao__destaque {
+  grid-column: span 2;
+}
+
+.cartao__botao--destaque {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.cartao__botao--destaque::before {
+  margin-right: 0.5rem;
+}
+
+.cartao__criador {
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: auto 1fr;
+}
+
+.cartao__criador::before {
+  background-image: url(../img/profile_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 2rem;
+  width: 2rem;
+}
+
+@media screen and (min-width:1024px) {
+  .cartao__criador {
+    grid-column: 1;
+  }
+
+  .cartao__titulo {
+    grid-column: 1;
+  }
+
+  .cartao__botao--destaque {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    padding: 1rem;
+    width: auto;
+  }
+}

@@ -10,10 +10,6 @@
   font-weight: 700;
 }
 
-.principal__titulo--produtos {
-  margin-top: 2rem;
-}
-
 @media screen and (min-width: 1024px) {
   .principal {
     column-gap: 2rem;
@@ -21,11 +17,8 @@
     grid-template-columns: auto 1fr auto;
     grid-template-areas: 
         "titulo-principal titulo-principal titulo-principal"
-        "video-destaque video-destaque videos-recentes"
+        "video-destaque video-destaque videos-favoritos"
         "secao-videos secao-videos secao-videos"
-        "titulo-produtos titulo-produtos titulo-produtos"
-        "novas-artes produto-destaque produto-destaque"
-        "secao-produtos secao-produtos secao-produtos"
     ;
     padding: 1rem 3.75rem;
   }
@@ -38,8 +31,8 @@
     grid-area: video-destaque;
   }
 
-  .videos-recentes {
-    grid-area: videos-recentes;
+  .videos-favoritos {
+    grid-area: videos-favoritos;
   }
 
   .secao-videos {
@@ -47,30 +40,6 @@
   }
 
   .titulo-videos-mais-vistos {
-    grid-column: span 4;
-  }
-
-  .principal__titulo--produtos {
-    margin-top: 1rem;
-  }
-
-  .titulo-produtos {
-    grid-area: titulo-produtos;
-  }
-
-  .produto-destaque {
-    grid-area: produto-destaque;
-  }
-
-  .novas-artes {
-    grid-area: novas-artes;
-  }
-
-  .secao-produtos {
-    grid-area: secao-produtos;
-  }
-
-  .titulo-camisas-mais-recentes {
     grid-column: span 4;
   }
 }
