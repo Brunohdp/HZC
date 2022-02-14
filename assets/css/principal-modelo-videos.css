@@ -113,23 +113,7 @@
     justify-self: flex-end;
   }
 
-  .conteudo-principal {
+  .conteudo-principal{
     grid-area: conteudo-principal;
-  }
-
-  .video-destaque {
-    grid-area: video-destaque;
-  }
-
-  .videos-recentes {
-    grid-area: videos-recentes;
-  }
-
-  .secao__titulo--outros-videos-similares {
-    grid-area: secao__titulo--outros-videos-similares;
-  }
-
-  .titulo-videos-mais-vistos {
-    grid-column: span 4;
   }
 }

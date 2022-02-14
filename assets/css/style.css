@@ -9,6 +9,10 @@ body {
   font-family: 'Open Sans', 'icones', sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1024px) {
   body{
     display: grid;
