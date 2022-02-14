@@ -86,7 +86,7 @@
   .principal {
     column-gap: 2rem;
     grid-column: 2;
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: auto 1fr 0.5fr;
     grid-template-areas:
         "principal__pico principal__pico secao-picos-similares"
         "titulo-principal titulo-principal secao-picos-similares"
