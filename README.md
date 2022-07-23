@@ -1,5 +1,5 @@
 # HZC
- Site HZC. Refarei o site que utilizamos para aprender Flexbox e Grid no curso da alura. Farei todo o primeiro site novamente da minha maneira e deixarei mais organizado além de fazer as outras 2 páginas que faltaram no curso e ficaram como desafio. No caso do desafio o professor já deixou as páginas prontas e nosso trabalho seria somente reorganizar para atingir o layout desejado utilizando felx box e css grid, mas eu quero refazer todas as páginas do início desde o HTML para praticar tudo o que foi visto na formação de front-end até agora. Talvez leve um tempo para fazer tudo sozinho, mas irei!!!
+ Site HZC. Refiz o site que utilizamos para aprender Flexbox e Grid no curso da alura. Fiz todo o primeiro site novamente da minha maneira e deixei mais organizado além de fazer as outras 2 páginas que faltaram no curso e ficaram como desafio. No caso do desafio o professor já deixou as páginas prontas e nosso trabalho seria somente reorganizar para atingir o layout desejado utilizando flex box e css grid, mas eu quis refazer todas as páginas do início desde o HTML para praticar tudo o que foi visto na formação de front-end até agora. Talvez leve um tempo para fazer tudo sozinho, mas irei!!!
 
 
 
